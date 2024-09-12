@@ -8,6 +8,7 @@ O curso de Modelagem de Domínio e Modelagem Conceitual ensina a representar de 
     - [Modelagem de domínio](#modelagem-de-domínio)
     - [O que é modelo de domínio?](#o-que-é-modelo-de-domínio)
     - [Níveis de abstração do modelo de domínio.](#níveis-de-abstração-do-modelo-de-domínio)
+    - [Níveis de abstração do modelo de domínio.](#níveis-de-abstração-do-modelo-de-domínio-1)
 
 
 
@@ -33,7 +34,7 @@ O desenvolvimento de software é dividido em fases:
 
 **Modelo de domínio:** é a área de negócio que descreve .
 * As entidades do domínio
-* As inte-relações entre elas
+* As inter-relações entre elas
 
 
 ![alt text](img/model-comparacao.png)
@@ -46,6 +47,11 @@ O desenvolvimento de software é dividido em fases:
 |:-------------------------------------|:-----------------------------|:---------------------------|
 |`Conceitual` ou de análise(de negócio)| Analista de negócio          |Descrever as entidades do domínio (**do negócio**) e suas inter- relações: **Independente de SISTEMA**         |
 |`Conceitual` ou de análise(de negócio)| Analista de sistemas         |Descrever as entidades do domínio (**do sistema**) e suas inter-sistema: **Independente de PARADIGMA E TECNOLOGIA**|
+
+
+### Níveis de abstração do modelo de domínio.
+
+![alt](img/niveis-abstracao.jpg)
 
 
 
