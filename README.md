@@ -43,10 +43,12 @@ O desenvolvimento de software é dividido em fases:
 
 
 
-|  Nível                               |  Responsável                 | Objetivo                   |
-|:-------------------------------------|:-----------------------------|:---------------------------|
-|`Conceitual` ou de análise(de negócio)| Analista de negócio          |Descrever as entidades do domínio (**do negócio**) e suas inter- relações: **Independente de SISTEMA**         |
-|`Conceitual` ou de análise(de negócio)| Analista de sistemas         |Descrever as entidades do domínio (**do sistema**) e suas inter-sistema: **Independente de PARADIGMA E TECNOLOGIA**|
+|  Nível                                       |  Responsável         | Objetivo                   |
+|:---------------------------------------------|:---------------------|:---------------------------|
+|**Conceitual** ou de <br> análise(de negócio) | Analista de negócio  |Descrever as entidades do domínio (**do negócio**) e suas inter-relações:<br> **Independente de SISTEMA**|
+|**Conceitual** ou de <br> análise(de sistema)  | Analista de sistemas |Descrever as entidades do domínio (**do sistema**) e suas inter-relações:<br> **\* Independente de PARADIGMA E TECNOLOGIA**|
+|**Lógico** ou de Design                       | Projetista           |Descrever as entidades do domínio (**do sistema**) e suas inter-relações:<br>**\* Preso a um PARADIGMA(ex:relacional, orientado a objetos)** <br>**\*  Independente de TECNOLOGIA**|
+|**Físico** ou de <br> implementação           | Implementador        |Descrever as entidades do domínio (**do sistema**) e suas inter-relações:<br>**\* Preso a um PARADIGMA(ex:relacional, orientado a objetos)** <br>**\* Preso a uma TECNOLOGIA(ex: Java, C#, etc)**|
 
 
 ### Níveis de abstração do modelo de domínio.
