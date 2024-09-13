@@ -10,6 +10,17 @@ O curso de Modelagem de Domínio e Modelagem Conceitual ensina a representar de 
     - [O que é modelo de domínio?](#o-que-é-modelo-de-domínio)
     - [Níveis de abstração do modelo de domínio.](#níveis-de-abstração-do-modelo-de-domínio)
     - [Níveis de abstração do modelo de domínio.](#níveis-de-abstração-do-modelo-de-domínio-1)
+    - [Nível Conceitual ou de análise (de negócio)](#nível-conceitual-ou-de-análise-de-negócio)
+    - [Nível Conceitual ou de análise (de sistema)](#nível-conceitual-ou-de-análise-de-sistema)
+    - [Nível Lógico ou de Design (Relacional)](#nível-lógico-ou-de-design-relacional)
+    - [Nível Lógico ou de Design (Orientado a objetos)](#nível-lógico-ou-de-design-orientado-a-objetos)
+    - [Nível Físico ou de implementação (relacional)](#nível-físico-ou-de-implementação-relacional)
+    - [Nível Físico ou de implementação (orientado a objetos)](#nível-físico-ou-de-implementação-orientado-a-objetos)
+    - [Polêmica sobre análise \& design](#polêmica-sobre-análise--design)
+    - [Paradigma estruturado / Relacional](#paradigma-estruturado--relacional)
+    - [Paradigma orientado a objetos](#paradigma-orientado-a-objetos)
+  - [📊 Modelo Conceitual (Conceitos e atributos)](#-modelo-conceitual-conceitos-e-atributos)
+    - [Modelo Conceitual](#modelo-conceitual)
 
 
 
@@ -57,6 +68,84 @@ O desenvolvimento de software é dividido em fases:
 ### Níveis de abstração do modelo de domínio.
 
 ![alt](img/niveis-abstracao.jpg)
+
+
+### Nível Conceitual ou de análise (de negócio)
+
+![nivel conceitual](img/nivel-conceito-negocio.jpg)
+
+
+### Nível Conceitual ou de análise (de sistema)
+
+![nivel conceitual sistema](img/nivel-conceito-sistema.jpg)
+
+
+### Nível Lógico ou de Design (Relacional)
+
+Paradigma: **relacional**
+
+![alt text](img/nivel-logico.png)
+
+### Nível Lógico ou de Design (Orientado a objetos)
+
+Paradigma: **orientado a objetos**
+
+
+![alt text](img/paradigma-oo.jpg)
+
+
+### Nível Físico ou de implementação (relacional)
+
+* **Relacional**
+
+![alt text](img/implementacao-relacional.png)
+
+
+### Nível Físico ou de implementação (orientado a objetos)
+
+* **Orientado a objetos**
+
+![alt text](img/implementacao-oo.png)
+
+
+### Polêmica sobre análise & design
+
+* **Análise:** descrever o PROBLEMA (independente de paradigma e tecnologia)
+* **Design:** descrever a SOLUÇÃO (preso ao paradigma)
+
+![alt text](img/polemica-analise-design.png)
+
+### Paradigma estruturado / Relacional
+
+* C**haves estrangeiras**
+* **Criação de tabelas**
+* **Normalização**
+* **Outros...**
+
+
+![alt text](img/paradigma-estruturado-relacional.png)
+
+### Paradigma orientado a objetos
+
+* **Inclusão de métodos**
+*  **Normalização (?)**
+
+
+![alt text](img/paradigma-oo.jpg)
+
+---
+
+## 📊 Modelo Conceitual (Conceitos e atributos)
+
+### Modelo Conceitual
+
+
+
+
+
+
+
+
 
 
 
