@@ -9,7 +9,6 @@ O curso de Modelagem de Domínio e Modelagem Conceitual ensina a representar de 
     - [Modelagem de domínio](#modelagem-de-domínio)
     - [O que é modelo de domínio?](#o-que-é-modelo-de-domínio)
     - [Níveis de abstração do modelo de domínio.](#níveis-de-abstração-do-modelo-de-domínio)
-    - [Níveis de abstração do modelo de domínio.](#níveis-de-abstração-do-modelo-de-domínio-1)
     - [Nível Conceitual ou de análise (de negócio)](#nível-conceitual-ou-de-análise-de-negócio)
     - [Nível Conceitual ou de análise (de sistema)](#nível-conceitual-ou-de-análise-de-sistema)
     - [Nível Lógico ou de Design (Relacional)](#nível-lógico-ou-de-design-relacional)
@@ -17,7 +16,7 @@ O curso de Modelagem de Domínio e Modelagem Conceitual ensina a representar de 
     - [Nível Físico ou de implementação (relacional)](#nível-físico-ou-de-implementação-relacional)
     - [Nível Físico ou de implementação (orientado a objetos)](#nível-físico-ou-de-implementação-orientado-a-objetos)
     - [Polêmica sobre análise \& design](#polêmica-sobre-análise--design)
-    - [Paradigma estruturado / Relacional](#paradigma-estruturado--relacional)
+    - [Paradigma estruturado / relacional](#paradigma-estruturado--relacional)
     - [Paradigma orientado a objetos](#paradigma-orientado-a-objetos)
   - [📊 Modelo Conceitual (Conceitos e atributos)](#-modelo-conceitual-conceitos-e-atributos)
     - [Modelo Conceitual](#modelo-conceitual)
@@ -65,11 +64,6 @@ O desenvolvimento de software é dividido em fases:
 |**Físico** ou de <br> implementação           | Implementador        |Descrever as entidades do domínio (**do sistema**) e suas inter-relações:<br>**\* Preso a um PARADIGMA (ex:relacional, orientado a objetos)** <br>**\* Preso a uma TECNOLOGIA(ex: Java, C#, etc)**|
 
 
-### Níveis de abstração do modelo de domínio.
-
-![alt](img/niveis-abstracao.jpg)
-
-
 ### Nível Conceitual ou de análise (de negócio)
 
 ![nivel conceitual](img/nivel-conceito-negocio.jpg)
@@ -115,9 +109,9 @@ Paradigma: **orientado a objetos**
 
 ![alt text](img/polemica-analise-design.png)
 
-### Paradigma estruturado / Relacional
+### Paradigma estruturado / relacional
 
-* C**haves estrangeiras**
+* **Chaves estrangeiras**
 * **Criação de tabelas**
 * **Normalização**
 * **Outros...**
