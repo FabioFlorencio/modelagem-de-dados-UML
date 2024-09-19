@@ -20,6 +20,9 @@ O curso de Modelagem de Domínio e Modelagem Conceitual ensina a representar de 
     - [Paradigma orientado a objetos](#paradigma-orientado-a-objetos)
   - [📊 Modelo Conceitual (Conceitos e atributos)](#-modelo-conceitual-conceitos-e-atributos)
     - [Modelo Conceitual](#modelo-conceitual)
+    - [Conceitos](#conceitos)
+    - [Atributos](#atributos)
+    - [Usando diagrama de classes da UML para  representar conceitos e atributos](#usando-diagrama-de-classes-da-uml-para--representar-conceitos-e-atributos)
 
 
 
@@ -133,22 +136,38 @@ Paradigma: **orientado a objetos**
 
 ### Modelo Conceitual
 
+**Definição 1** é um modelo que descreve a estrutura das  informações que o sistema vai gerenciar (Wazlawick)
+**Definição 2** é o Modelo de Domínio em nível de Análise:
+* Pertence ao escopo do problema e não ao escopo da solução
+* Independente de paradigma
+* Independente de tecnologia
+
+![](img/modelo-conceitual.jpg)
 
 
+### Conceitos
+
+* Um conceito pode ser qualquer entidade que tenha um significado para o  sistema e que tenha uma necessidade de armazenamento de dados.
+* Um conceito deve ser uma unidade coesa, ou seja, **não se deve misturar informações de várias coisas distintas em um mesmo conceito**.
+
+### Atributos
+
+* **Informações alfanuméricas simples, como números, textos, datas,  etc. contidas em cada conceito.**
+* Produto: descrição, preço
+* Cliente: nome, email, telefone, CPF, dataNascimento
+  
+
+* Notas(1FN - 1° Forma normal)
+  * ❌Não pode ser multivalorado
+    * Exemplo: telefones ("3736-3938, 9988-3346, 3210-3939")
+  
+  * ❌Não pode ser composto
+    * Exemplo: endereço ("Rua Floriano Peixoto, n° 250, apto 302, Bairro Copacabana, CEP 38410-384")
 
 
+### Usando diagrama de classes da UML para  representar conceitos e atributos
 
-
-
-
-
-
-
-
-
-
-
-
+![](img/class-uml-conceito.jpg)
 
 
 
